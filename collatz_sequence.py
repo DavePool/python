@@ -24,7 +24,7 @@ def brute(number):
             number = (number * 3) + 1
             print(number)
 
-print (collatz(1000000))
+print ("Enter a number: ")
 
-print (brute(1000000))
+collatz( int(input()))
 
