@@ -20,4 +20,4 @@ def sum(n, k):
 n, k = map(int, raw_input().strip().split())
 if 0 <= n and k <=10**9:
     if n >= k:
-        print sum(n,k)
+        print (sum(n,k))

@@ -9,10 +9,10 @@ class cuenta(object):
 
     def realizarRetiro(retiro):
         if retiro < 0:
-            print "Operacion no valida"
+            print ("Operacion no valida")
         else:
             saldo -= retiro;
-            print "operacion exitosa, saldo actual es de: "+ saldo
+            print ("operacion exitosa, saldo actual es de: ")+ saldo
         pass
 
 cuenta1 = cuenta(232244,"DavePool", 234)
