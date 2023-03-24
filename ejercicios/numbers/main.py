@@ -36,9 +36,8 @@ import armstrong
 # print("******** End of Grains exercese ************")
 
 print("******** Armstrong numbers exercese *******************")
-
-print("Grains: "+str(grains.square(2)))
-print("Total Grains on the chess board: "+str(grains.total()))
+print("Type number:")
+print("Is an Armstrong number: "+str(armstrong.is_armstrong_number(int(input()))))
 
 
 print("******** End of Armstrong exercese ************")
