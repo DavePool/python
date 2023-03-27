@@ -1,6 +1,8 @@
 import exchange
 import grains
 import armstrong
+import difference_of_squares
+
 # print("******** Exchange exercese *******************")
 
 # print("Exchange money: "+str(exchange.exchange_money(127.5,1.2)))
@@ -35,9 +37,18 @@ import armstrong
 
 # print("******** End of Grains exercese ************")
 
-print("******** Armstrong numbers exercese *******************")
+# print("******** Armstrong numbers exercese *******************")
+# print("Type number:")
+# print("Is an Armstrong number: "+str(armstrong.is_armstrong_number(int(input()))))
+
+
+# print("******** End of Armstrong exercese ************")
+
+print("******** square sums numbers exercese *******************")
 print("Type number:")
-print("Is an Armstrong number: "+str(armstrong.is_armstrong_number(int(input()))))
+number = int(input())
+print("Square of sum is: "+str(difference_of_squares.square_of_sum(number)))
+print("Sum of squares is: "+str(difference_of_squares.sum_of_squares(number)))
+print("Diff of squares is: "+str(difference_of_squares.difference_of_squares(number)))
 
-
-print("******** End of Armstrong exercese ************")
+print("******** End of square sums numbers exercese *******************")
